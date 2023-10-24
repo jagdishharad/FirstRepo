@@ -12,8 +12,8 @@ public class StartApplication {
 
     @GetMapping("/")
     public String index(final Model model) {
-        model.addAttribute("title", "Howdy Folks..Welcome to Devops Coaching by Coach AK!");
-        model.addAttribute("msg", "Hello All..We are deploying springboot application into EKS cluster using Helm + Jenkins Pipeline!!!! Today is Aug 7th, 2023");
+        model.addAttribute("title", "Hello Everyone, Happy Dussehra");
+        model.addAttribute("msg", "On the auspicious occasion of Dussehra, may the divine blessings of Lord Rama bring light, joy, and victory into your life. Let the triumph of good over evil inspire you to conquer your own inner demons and obstacles. Wishing you a Happy Dussehra filled with love, happiness, and success");
         return "index";
     }
 
